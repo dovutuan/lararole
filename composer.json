@@ -1,0 +1,48 @@
+{
+    "name": "dovutuan/lararole",
+    "description": "Associate users with permissions and roles",
+    "keywords": [
+        "laravel",
+        "role",
+        "permission",
+        "model",
+        "cache"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "Dovutuan\\Lararole\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dovutuan",
+            "email": "tuando.0598@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/dovutuan/lararole",
+    "support": {
+        "email": "tuando.0598@gmail.com",
+        "issues":"https://github.com/dovutuan/lararole/issues",
+        "wiki":"https://github.com/dovutuan/lararole/wiki",
+        "source":"https://github.com/dovutuan/lararole",
+        "docs": "https://github.com/dovutuan/lararole"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.28.0",
+        "illuminate/container": "^10.31",
+        "illuminate/database": "^10.31",
+        "staudenmeir/eloquent-has-many-deep": "^1.19"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dovutuan\\Lararole\\ServiceProvider"
+            ]
+        }
+    }
+}
